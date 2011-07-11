@@ -10,11 +10,11 @@ Requires at least: 2.0.2
 Tested up to: 3.2
 Stable tag: 1.0
 
-A simple widget that displays recent activities from Runkeeper. It's configurable through Appearance --> Widgets. Configuration options are; user name, activity display count.
+Provides an easy way to list a few of your recent activities in a widget alongside your blog content.
 
 == Description ==
+A simple widget that displays recent activities from Runkeeper. It's configurable through Appearance --> Widgets. Configuration options are; user name, activity display count.
 
-Provides an easy way to list a few of your recent activities in a widget alongside your blog content.
 
 == Installation ==
 
@@ -52,7 +52,6 @@ Yes. Just drop a comment on my blog http://middleoftech.com/?page_id=288 and I w
 * Configuration options are 
 	* User Name
 	* Activity Display Count
-
 
 == Upgrade Notice ==
 
