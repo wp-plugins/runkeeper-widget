@@ -7,8 +7,8 @@ Donate link: <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 </form>
 
 Requires at least: 2.0.2
-Tested up to: 2.1
-Stable tag: 4.3
+Tested up to: 3.2
+Stable tag: 1.0
 
 A simple widget that displays recent activities from Runkeeper. It's configurable through Appearance --> Widgets. Configuration options are; user name, activity display count.
 
@@ -36,9 +36,14 @@ No. This widget just needs your Runkeeper user name. It pulls the data via a scr
 
 Yes. Just drop a comment on my blog http://middleoftech.com/?page_id=288 and I will get back to you.
 
+= What are some future features to expect? =
+
+* Optional Monthly and weekly totals.
+* Option to list the date next to the activity
+
 == Screenshots ==
 
-1. default_screen.png
+1. screenshot-1.png
 
 == Changelog ==
 
