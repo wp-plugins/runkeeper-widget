@@ -8,7 +8,7 @@ Donate link: <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 Requires at least: 2.0.2
 Tested up to: 3.2
-Stable tag: 2.0
+Stable tag: 4.0
 
 Provides an easy way to list a few of your recent activities in a widget alongside your blog content.
 
@@ -56,6 +56,12 @@ Yes. Just drop a comment on my blog http://middleoftech.com/?page_id=288 and I w
 = 2.0 =
 * Activities are now links. This way you can click on an activity in the widget and see the actual activity in Runkeeper.
 
+= 3.0 =
+* Fixing URL update from Runkeeper.
+
+= 4.0 =
+* Additional bug fixes. 
+
 == Upgrade Notice ==
 
 = 1.0 =
@@ -63,3 +69,9 @@ First Version
 
 = 2.0 =
 Second Version
+
+= 3.0 = 
+Third Version
+
+= 4.0 =
+Fourth Version
