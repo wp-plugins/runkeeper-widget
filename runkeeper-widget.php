@@ -3,7 +3,7 @@
 Plugin Name: Runkeeper Widget
 Plugin URI: http://middleoftech.com/?page_id=288
 Description: A simple widget that displays recent activities from Runkeeper. It's configurable through Appearance --> Widgets. Configuration options are; user name, activity display count.
-Version: 2.0
+Version: 4.0
 Author: Ryan Baseman/Jason Stanard
 Author URI: http://www.middleoftech.com
 License: GPL
@@ -67,7 +67,7 @@ class Runkeeper_Widget {
     {
       $url = 'http://runkeeper.com/user/';
       $url .= get_option('runkeeper_widget_username');
-      $url .= '/activity/';
+      $url .= '/activitylist/';
 
       $runkeeperHtml = file_get_html($url);
 
@@ -94,7 +94,7 @@ class Runkeeper_Widget {
        $i++;
        }
       
-      $firstActivityHtml = $runkeeperHtml->find('div[class=activityMonth menuItem selected]', 0);
+      $firstActivityHtml = $runkeeperHtml->find('div[class=activityMonth menuItem selected ]', 0);
 
       /* ----  Get activity link ---- */
       $beginstr = "link=";
@@ -125,7 +125,7 @@ class Runkeeper_Widget {
       $i = 2;
 
 
-      foreach($runkeeperHtml->find('div[class=activityMonth menuItem ]') as $activity)
+      foreach($runkeeperHtml->find('div[class=activityMonth menuItem  ]') as $activity)
       {
 
 	/* ----  Get activity link ---- */
